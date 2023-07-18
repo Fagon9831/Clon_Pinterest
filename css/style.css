@@ -170,11 +170,11 @@ main{
     font-weight: 500;
     visibility: hidden;
 }
-.card-image button#Save:hover{    
+.card-image button.Save:hover{    
     background-color: rgb(199, 29, 29);
     cursor: pointer;
 }
-.card-image button#Save{    
+.card-image button.Save{    
     display: flex;
     right: 17px;
     top:20px;
@@ -185,7 +185,7 @@ main{
     border-radius: 25px;
     border: none;
 }
-.card-image button#More_Options{    
+.card-image button.More_Options{    
     display: flex;
     right: 17px;
     bottom:20px;    
@@ -197,15 +197,15 @@ main{
     height: 32px;
     width: 32px;
 }
-.card-image button#More_Options svg{    
+.card-image button.More_Options svg{    
 height: 16px;
 width: 16px;
 }
-.card-image button#More_Options:hover{    
+.card-image button.More_Options:hover{    
     background-color: rgb(233, 233, 233);
     cursor: pointer;
 }
-.card-image button#Download{    
+.card-image button.Download{    
     display: flex;
     right: 59px;
     bottom:20px;    
@@ -217,11 +217,11 @@ width: 16px;
     height: 32px;
     width: 32px;
 }
-.card-image button#Download svg{    
+.card-image button.Download svg{    
     height: 16px;
     width: 16px;
 }
-.card-image button#Download:hover{    
+.card-image button.Download:hover{    
     background-color: rgb(233, 233, 233);
     cursor: pointer;
 }
